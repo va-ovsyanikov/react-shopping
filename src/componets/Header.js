@@ -32,19 +32,19 @@ const {toggle}  = state
       <nav className={toggle ? "toggle" : ""}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link onClick={menuToggle}  to="/">Home</Link>
           </li>
           <li>
-            <Link to="/product">Product</Link>
+            <Link onClick={menuToggle}  to="/product">Product</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link onClick={menuToggle}  to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/about">Abut</Link>
+            <Link onClick={menuToggle}  to="/about">About</Link>
           </li>
           <li>
-            <Link to="/login">Login/Register</Link>
+            <Link onClick={menuToggle}  to="/login">Login/Register</Link>
           </li>
         </ul>
 

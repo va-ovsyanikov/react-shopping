@@ -13,7 +13,7 @@ export const Cart = () => {
 
 
   if (cart.length === 0) {
-     return <h2 style={{textAlign:"center"}}>Nothings Product</h2>
+     return <h2>Nothings Product</h2>
   }else{
     return (
         <>

@@ -2,8 +2,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 70px;
-  margin: 0 15px;
+  min-height: 100px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing:border-box;
 }
 
 .logo a {
@@ -30,6 +33,7 @@ nav a:hover {
 }
 .nav-cart {
   position: relative;
+  margin-right: 15px;
 }
 .nav-cart span {
   position: absolute;
@@ -48,6 +52,10 @@ nav a:hover {
 }
 
 @media (max-width: 700px) {
+  header{
+    min-height: 70px;
+    padding:0 15px;
+  }
   header nav {
     position: fixed;
     left: 0;

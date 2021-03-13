@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-.app {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .details {
   display: flex;
@@ -60,6 +60,11 @@
   padding: 10px 25px;
   display: inline-block;
 }
+section{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 section .cart {
   position: relative;
   border: 1px solid #ccc;
@@ -102,4 +107,8 @@ section .cart {
 .total h3 {
   margin-right: 50px;
   color: crimson;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
 }

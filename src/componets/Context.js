@@ -8,7 +8,7 @@ export const Context = (props) => {
       {
         id: "1",
         title: "Nike Shoes 01",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img1.jpg",
+        src: "https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         description:
           "UI/UX Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         content:
@@ -20,7 +20,7 @@ export const Context = (props) => {
       {
         id: "2",
         title: "Nike Shoes 02",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img2.jpg",
+        src: "https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         description:
           "UI/UX Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         content:
@@ -32,7 +32,7 @@ export const Context = (props) => {
       {
         id: "3",
         title: "Nike Shoes 03",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img3.jpg",
+        src: "https://images.pexels.com/photos/1456737/pexels-photo-1456737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         description:
           "UI/UX Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         content:
@@ -44,7 +44,7 @@ export const Context = (props) => {
       {
         id: "4",
         title: "Nike Shoes 04",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img4.jpg",
+        src: "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         description:
           "UI/UX Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         content:
@@ -56,7 +56,7 @@ export const Context = (props) => {
       {
         id: "5",
         title: "Nike Shoes 05",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img5.jpg",
+        src: "https://images.pexels.com/photos/1456705/pexels-photo-1456705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         description:
           "UI/UX Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         content:
@@ -68,7 +68,7 @@ export const Context = (props) => {
       {
         id: "6",
         title: "Nike Shoes 06",
-        src: "https://www.upsieutoc.com/images/2020/06/27/img6.jpg",
+        src: "https://images.pexels.com/photos/1456733/pexels-photo-1456733.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         description:
           "UI/UX Lorem ipsum dolor sit, amet consectetur adipisicing elit. ",
         content:
@@ -161,8 +161,7 @@ export const Context = (props) => {
         increase,
         remove,
         total,
-        getTotal,
-        state
+        getTotal
       }}
     >
       {props.children}
